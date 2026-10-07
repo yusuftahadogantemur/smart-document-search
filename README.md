@@ -76,7 +76,7 @@ The app is created in the `publish` folder as `SmartDocumentSearch.exe`. Keep al
 Tip: scan a specific folder such as Documents or Desktop rather than a whole drive. It is much faster and gives cleaner results.
 
 ## Notes and limitations
-
+- If the application does not open, extract the file by selecting "Extract All" from the zip file, then try opening the application again. !!!
 - Matching is by substring, so `car` also finds `carpet`.
 - OCR is slow and can misread characters, so a word inside an image may be missed.
 - Password-protected, corrupted or locked files are skipped, and the status bar shows how many.
